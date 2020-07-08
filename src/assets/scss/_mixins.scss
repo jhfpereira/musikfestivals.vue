@@ -1,0 +1,8 @@
+/*
+ * scss/_mixins.scss
+ */
+
+@mixin button {
+  padding: $xxs $xs;
+  border-radius: $border-radius;
+}
