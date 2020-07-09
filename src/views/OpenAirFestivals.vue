@@ -190,6 +190,7 @@ export default {
 
   data() {
     return {
+      pageTitle: 'Musikfestivals: Open Air Festivals',
       header: {
         title: 'Open Air Festivals …',
         subtitle: '… sind live dargebotene musikalische Großereignisse unter freiem Himmel.',
@@ -204,7 +205,7 @@ export default {
   },
 
   mounted() {
-    document.title = 'Musikfestivals: Open Air Festivals';
+    document.title = this.pageTitle;
   },
 };
 </script>

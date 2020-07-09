@@ -129,6 +129,7 @@ export default {
 
   data() {
     return {
+      pageTitle: 'Musikfestivals: Maiwoche',
       header: {
         title: 'Maiwoche …',
         subtitle: '… ist der Name eines alljährlich stattfindenden Festes, das es sowohl in Osnabrück als auch in Herdecke gibt.',
@@ -147,7 +148,7 @@ export default {
   },
 
   mounted() {
-    document.title = 'Musikfestivals: Maiwoche';
+    document.title = this.pageTitle;
   },
 };
 </script>
