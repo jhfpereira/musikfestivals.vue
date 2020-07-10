@@ -8,8 +8,6 @@
       :title="item.title"
       :value="item.value"
       :modification="item.modification"
-
-      class="ranking__item"
     ></list-item>
   </ol>
 
