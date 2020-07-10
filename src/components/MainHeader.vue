@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import hamburgerButton from '@/components/HamburgerButton.vue';
+import HamburgerButton from '@/components/HamburgerButton.vue';
 import MenuList from '@/components/MenuList.vue';
 
 export default {
@@ -30,7 +30,7 @@ export default {
   },
 
   components: {
-    hamburgerButton,
+    HamburgerButton,
     MenuList,
   },
 
